@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movimentação das Peças de Xadrez em C</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    pre {
+      background: #eee;
+      padding: 10px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: monospace;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Movimentação das Peças de Xadrez em C</h1>
+    <p>Este projeto simula os movimentos básicos de peças de xadrez utilizando linguagem C. Ele cobre conceitos como:</p>
+    <ul>
+      <li>Estruturas de repetição (<code>for</code>, <code>while</code>, <code>do-while</code>)</li>
+      <li>Recursividade</li>
+      <li>Loops aninhados e controle de fluxo (<code>break</code>, <code>continue</code>)</li>
+    </ul>
+
+    <h2>Peças Simuladas</h2>
+    <ul>
+      <li><strong>Torre</strong> - Movimento para direita com recursividade</li>
+      <li><strong>Bispo</strong> - Movimento diagonal com recursividade + loops aninhados</li>
+      <li><strong>Rainha</strong> - Movimento lateral com recursividade</li>
+      <li><strong>Cavalo</strong> - Movimento em "L" com loops complexos</li>
+    </ul>
+
+    <h2>Como Executar</h2>
+    <pre><code>// Compilar
+gcc xadrez.c -o xadrez
+
+// Executar
+./xadrez
+</code></pre>
+
+    <h2>Saída Esperada</h2>
+    <p>O programa imprime no terminal os movimentos de cada peça:</p>
+    <pre><code>Movimento da Torre (5 casas para a direita):
+Direita (5)
+Direita (4)
+...
+
+Movimento do Cavalo (2 casas para cima e 1 para a direita):
+Cima (1)
+Cima (2)
+Direita (1)</code></pre>
+
+    <p>Projeto desenvolvido para fins educacionais, demonstrando lógica e controle de fluxo em C.</p>
+    <p><em>Por: Seu Nome</em></p>
+  </div>
+</body>
+</html>
